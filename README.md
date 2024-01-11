@@ -51,7 +51,7 @@ If the final calculation is positive, the safeguard is a benefit and should be i
 
 <p align="center">
   
-<h3>Example 1</h3>
+<h3>Example 1:</h3>
 <br />
 <img src="https://i.imgur.com/KAa0op0.png" height="80%" width="80%" alt="Risk Management"/>
 ALEBefore<br/>
@@ -72,7 +72,7 @@ In this scenario, the risk to a server is a power supply failure which can be mi
 <br />
 <br />
 
-<h3>Example 2</h3>
+<h3>Example 2:</h3>
 <br />
 <img src="https://i.imgur.com/uDyhdp2.png" height="80%" width="80%" alt="Risk Management"/>
 ALEBefore<br />
@@ -93,7 +93,7 @@ In this scenario, the risk to a laptop is a physical theft outside the office wh
 <br />
 <br />
 
-<h3>Example 3</h3>
+<h3>Example 3:</h3>
 <br />
 <img src="https://i.imgur.com/clsiXmp.png" height="80%" width="80%" alt="Risk Management"/>
 ALEBefore<br /> 		
