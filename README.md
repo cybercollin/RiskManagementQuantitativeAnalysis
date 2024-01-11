@@ -53,6 +53,41 @@ If the final calculation is positive, the safeguard is a benefit and should be i
   
 <h3>Example 1</h3>
 <br />
+<img src="https://i.imgur.com/KAa0op0.png" height="80%" width="80%" alt="Risk Management"/>
+ALEBefore 		    = SLE x ARO
+            	   	    = (10000)(0.25)(0.35)
+                            = 875
+ 
+ALEAfter 		    = SLE x ARO
+	    		    = (10000)(0.0)(0.35)
+	    		    = 0
+
+ValueOfSafeguard 	    = 875 - 0 - 400
+		       	    = <b>475</b>
+
+In this scenario, the risk to a server is a power supply failure which can be mitigated by a Hot Standby. The overall value of the safeguard is calculated to be <b>$475</b>, implement the safeguard.
+<br />
+<br />
+
+<h3>Example 2</h3>
+<br />
+<img src="https://i.imgur.com/uDyhdp2.png" height="80%" width="80%" alt="Risk Management"/>
+ALEBefore 		    = SLE x ARO
+            	    = (10000)(0.25)(0.35)
+                  = 875
+ 
+ALEAfter 		      = SLE x ARO
+	    		        = (10000)(0.0)(0.35)
+	    		        = 0
+
+ValueOfSafeguard 	= 875 - 0 - 400
+		       	      = <b>475</b>
+
+In this scenario, the risk to a server is a power supply failure which can be mitigated by a Hot Standby. The overall value of the safeguard is calculated to be <b>$475</b>, implement the safeguard.
+<br />
+<br />
+
+<h3>Example 3</h3>
 <br />
 <img src="https://i.imgur.com/KAa0op0.png" height="80%" width="80%" alt="Risk Management"/>
 ALEBefore 		    = SLE x ARO
@@ -69,6 +104,13 @@ ValueOfSafeguard 	= 875 - 0 - 400
 In this scenario, the risk to a server is a power supply failure which can be mitigated by a Hot Standby. The overall value of the safeguard is calculated to be <b>$475</b>, implement the safeguard.
 <br />
 <br />
+
+
+
+
+
+
+
 <img src="https://i.imgur.com/KAa0op0.png" height="80%" width="80%" alt="Risk Management"/>
 <br />
 <br />
