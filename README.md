@@ -20,7 +20,7 @@ Three scenarios are presented graphically that will answer the following questio
 For a cybersecurity engineer to respond to risk, a decision has to be made about whether they will <u>avoid, transfer, mitigate or accept a risk to an asset</u>. One option is to use a framework to assess the risk, such as <b>NIST SP 800-30</b>, which provides a system to frame, assess, analyze and respond to risks. This project will demonstrate a process to quantitatively respond to risks based on hypothetical business scenarios. We'll need a few <b>definitions</b> of acronyms to help explain what is going on: <br /><br />
 
 <b>Single Loss Expectancy (SLE)</b> is the loss incurred due to the realization of a threat represented as a monetary value.<br /><br />
-<b>Asset Value (AV)</b> is the monetary valuation of an asset<br /><br />
+<b>Asset Value (AV)</b> is the monetary valuation of an asset.<br /><br />
 <b>Exposure Factor (EF)</b> is the percentage of loss a realized threat can cause to an asset.<br /><br />
 <b>Annualized Loss Expectancy (ALE)</b> is the loss the company expects to lose per year due to the threat.<br /><br />
 <b>Annualised Rate of Occurrence (ARO)</b> is the expected number of times this threat is realized yearly, i.e., frequency per year.<br /><br />
