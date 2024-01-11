@@ -64,8 +64,7 @@ ALEAfter<br />
 = (10000)(0.0)(0.35)<br />
 = 0<br />
 <br />
-ValueOfSafeguard<br />
-= ALEBefore - ALEAfter - AnnualCost<br />
+ValueOfSafeguard<br />    
 = 875 - 0 - 400<br />
 = <b>475</b><br />
 
@@ -76,55 +75,42 @@ In this scenario, the risk to a server is a power supply failure which can be mi
 <h3>Example 2</h3>
 <br />
 <img src="https://i.imgur.com/uDyhdp2.png" height="80%" width="80%" alt="Risk Management"/>
-ALEBefore<br/>
+ALEBefore<br />
 = SLE x ARO<br />
-= (2000)(0.5)(0.25)<br />
-= 250 <br />
+= (2000)(1.0)(0.5)<br />
+= 1000<br />
  <br />
 ALEAfter<br />
 = SLE x ARO<br />
-= (2000)(0.1)(0.25)<br />
-= 50<br />
+= (2000)(0.5)(0.5)<br />
+= 500<br />
 <br />
-ValueOfSafeguard<br />
-= ALEBefore - ALEAfter - AnnualCost<br />
-= 250 - 50 - 1500<br />
-= <b>-1300</b><br />
-
-In this scenario, the risk to a laptop is physical damage from falling which can be mitigated by a rugged design. The overall value of the safeguard is calculated to be -$1300, the safeguard cost outweighs the potential risk, do not implement the safeguard.
-
+ValueOfSafeguard 	<br />
+= 1000 - 500 - 20<br />
+= 480<br />
+<br />
+In this scenario, the risk to a laptop is a physical theft outside the office which can be mitigated by a encryption. The overall value of the safeguard is calculated to be $480, implement the safeguard.
 <br />
 <br />
 
 <h3>Example 3</h3>
 <br />
-<img src="https://i.imgur.com/KAa0op0.png" height="80%" width="80%" alt="Risk Management"/>
-ALEBefore 		    = SLE x ARO
-            	    = (10000)(0.25)(0.35)
-                  = 875
- 
-ALEAfter 		      = SLE x ARO
-	    		        = (10000)(0.0)(0.35)
-	    		        = 0
-
-ValueOfSafeguard 	= 875 - 0 - 400
-		       	      = <b>475</b>
-
-In this scenario, the risk to a server is a power supply failure which can be mitigated by a Hot Standby. The overall value of the safeguard is calculated to be <b>$475</b>, implement the safeguard.
-<br />
-<br />
-
-
-
-
-
-
-
-<img src="https://i.imgur.com/KAa0op0.png" height="80%" width="80%" alt="Risk Management"/>
-<br />
-<br />
-The first step in vulnerability management is to take an inventory of assets (software, hardware, services, configurations etc.) that will be involved during a scan of the systems and networks associated. I added a new Target by hovering over Configuration and clicking Targets: <br/><br/>
-<img src="https://i.imgur.com/KAa0op0.png" height="80%" width="80%" alt="Risk Management"/>
+<img src="https://i.imgur.com/clsiXmp.png" height="80%" width="80%" alt="Risk Management"/>
+ALEBefore<br /> 		
+= SLE x ARO<br /> 
+= (2000)(0.5)(0.25)<br /> 
+= 250<br /> 
+ <br /> 
+ALEAfter<br />  
+= SLE x ARO<br /> 
+= (2000)(0.1)(0.25)<br /> 
+= 50<br /> 
+<br /> 
+ValueOfSafeguard<br />  	
+= 250 - 50 - 1500<br /> 
+= -1300<br /> 
+<br /> 
+In this scenario, the risk to a laptop is physical damage from falling which can be mitigated by a rugged design. The overall value of the safeguard is calculated to be -$1300, the safeguard cost outweighs the potential risk, do not implement the safeguard.
 <br />
 <br />
 
