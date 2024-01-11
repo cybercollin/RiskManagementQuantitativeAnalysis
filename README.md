@@ -87,7 +87,7 @@ ALEAfter<br />
 <br />
 ValueOfSafeguard 	<br />
 = 1000 - 500 - 20<br />
-= 480<br />
+= <b>480</b><br />
 <br />
 In this scenario, the risk to a laptop is a physical theft outside the office which can be mitigated by a encryption. The overall value of the safeguard is calculated to be $480, implement the safeguard.
 <br />
@@ -108,7 +108,7 @@ ALEAfter<br />
 <br /> 
 ValueOfSafeguard<br />  	
 = 250 - 50 - 1500<br /> 
-= -1300<br /> 
+= <b>-1300</b><br /> 
 <br /> 
 In this scenario, the risk to a laptop is physical damage from falling which can be mitigated by a rugged design. The overall value of the safeguard is calculated to be -$1300, the safeguard cost outweighs the potential risk, do not implement the safeguard.
 <br />
